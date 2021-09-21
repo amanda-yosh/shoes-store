@@ -6,9 +6,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoes Store</title>
 
+    <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header>
+        <a href="index.html"><img src="img/shoes-logo.svg" alt=""></a>
+        <nav class="menu">
+            <ul>
+                <li><a href="">todos os produtos</a></li>
+                <li><a href="">coleções</a></li>
+                <li><a href="">outlet</a></li>
+                <li><a href="trabalhe-conosco.html">trabalhe conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Faça parte do nosso time</h1>
+
+    <section class="trabalhe-conosco">
+        <div class="container flex">
+            <div class="form">
+                <div class="container">
+                    <form>
+                        <div class="form-input">
+                            <label for="nome">nome</label>
+                            <input type="text" name="nome" id="nome">
+                        </div>
+                        
+                        <div class="form-input">
+                            <label for="email">email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        
+                        <div class="form-input">
+                            <label for="telefone">telefone</label>
+                            <input type="tel" name="telefone" id="telefone">
+                        </div>
+                       
+                        <div class="form-input">
+                            <label for="departamentos">departamentos</label>
+                            <select name="departamentos" id="departamentos">
+                                <option value="Marketing">Marketing</option>
+                                <option value="Desenvolvimento">Desenvolvimento</option>
+                                <option value="Financeiro">Financeiro</option>
+                            </select>
+                        </div>
+                       
+                        <div class="form-input">
+                            <label for="disponibilidade">disponibilidade</label>
+                            <input type="checkbox" name="disponibilidade" value="Integral (8h)">Integral (8h)</input>
+                            <input type="checkbox" name="disponibilidade" value="Meio período (4h)">Meio período (4h)</input>
+                            <input type="checkbox" name="disponibilidade" value="Freelancer">Freelancer</input>
+                        </div>
+        
+                        <div class="form-input">
+                            <label for="melhor-contato">qual a melhor forma para entrarmos em contato com você?</label>
+                            <input type="radio" name="melhor-contato" value="Email">Email</input>
+                            <input type="radio" name="melhor-contato" value="Ligação">Ligação</input>
+                            <input type="radio" name="melhor-contato" value="WhatsApp">WhatsApp</input>
+                        </div>
+
+                        <div class="form-input">
+                            <label for="mensagem">mensagem</label>
+                            <textarea name="" id="" cols="30" rows="10" maxlength="200"></textarea>
+                        </div>
+
+                        <div class="form-input">
+                            <label for="curriculo">currículo</label>
+                            <input type="file" name="curriculo" id="curriculo">
+                        </div>
+
+                        <button class="button">enviar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flex">
+            <div>
+                <img src="img/shoes-logo-branco.svg" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut labore <br> et dolore magna aliqua. 
+                </p>
+            </div>
+            <div class="infos container flex">
+                <div>
+                    <h3>categorias</h3>
+                    <p>sandálias</p>
+                    <p>botas</p>
+                    <p>tênis</p>
+                    <p>oxford</p>
+                    <p>coturnos</p>
+                </div>
+                <div>
+                    <h3>institucional</h3>
+                    <p>sobre nós</p>
+                    <p>perguntas frequentes</p>
+                    <p>política de privacidade</p>
+                    <p>rastreamento de pedidos</p>
+                    <p>trabalhe conosco</p>
+                    <p>contato</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
